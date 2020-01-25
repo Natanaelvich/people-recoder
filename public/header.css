@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #202428;
+  padding: 15px 5px;
+}
+
+.header .area-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 400px) {
+  .header .area-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.header .area-buttons h1 {
+  margin: 0 6px;
+  color: #ddd;
+  font-weight: bold;
+  margin-right: 20px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.header .area-buttons a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #f5f5f5;
+  padding: 5px 3px;
+  border-radius: 5px;
+}
+
+.header .area-buttons a:hover {
+  background-color: #2f4f4f;
+}
+
+.header .area-login {
+  display: flex;
+  align-items: center;
+}
+
+.header .area-login a {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #fff;
+  color: #202428;
+  padding: 8px 5px;
+  border-radius: 5px;
+}
+
+.header .area-login a:hover {
+  background-color: #ddd;
+}

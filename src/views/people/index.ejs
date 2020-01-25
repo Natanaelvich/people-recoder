@@ -1,0 +1,40 @@
+<title>List Peoples</title>
+<link rel="stylesheet" href="people-list.css" />
+<%- include('../partials/header') %>
+<div class="body">
+  <h1>Pessoas</h1>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Job Role</th>
+      <th>Actions</th>
+    </tr>
+    <% peoples.forEach(people=>{ %>
+    <tr class="results">
+      <td>
+        <%- people.name %>
+      </td>
+      <td>
+        <%- people.job_role %>
+      </td>
+      <td class="actions-buttons">
+        <button type="button" class="remove">
+          <a
+            href="/peoples/<%-people.id%>/delete"
+            onclick=" return confirm('Confirm Exclusion?')"
+            >Remove</a
+          >
+        </button>
+        <button type="button" class="update">
+          <a href="/peoples/update/<%-people.id%>">Update</a>
+        </button>
+      </td>
+    </tr>
+    <% }) %>
+  </table>
+
+  <div class="button-add">
+    <a href="peoples/add">ADD NEW PEOPLE</a>
+  </div>
+</div>
+<%- include('../partials/footer') %>

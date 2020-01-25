@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  align-items: flex-end;
+}
+
+.footer h4 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Shadows Into Light', cursive;
+}

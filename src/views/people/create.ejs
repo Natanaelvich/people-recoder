@@ -1,0 +1,13 @@
+<title>Add People</title>
+<link rel="stylesheet" href="/update.css" />
+<%- include('../partials/header') %>
+<div class="body">
+  <form action="/peoples/create" method="post">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" />
+    <label for="job-role">Job Role</label>
+    <input type="text" name="jobRole" id="job-role" />
+    <button type="submit">Salvar</button>
+  </form>
+</div>
+<%- include('../partials/footer') %>

@@ -1,0 +1,80 @@
+.body {
+  margin-left: 30px;
+}
+
+.body h1 {
+  color: #444;
+}
+
+.body table th {
+  text-align: left;
+  background-color: #ddd;
+  color: #444;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border-right: 1px solid #444;
+  border-left: 1px solid rgba(66, 62, 62, 0.473);
+}
+
+.body table td {
+  padding-right: 30px;
+  color: #555;
+  padding-left: 15px;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+
+.body table td:hover {
+  background-color: #ddd;
+}
+
+.actions-buttons .remove {
+  margin-right: 10px;
+  background-color: rgb(179, 51, 51);
+  padding: 5px 3px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.actions-buttons .remove:hover {
+  background-color: rgb(153, 35, 35);
+}
+
+.actions-buttons .update {
+  margin-right: 10px;
+  background-color: rgb(59, 117, 194);
+  padding: 5px 3px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+.actions-buttons .update:hover {
+  background-color: rgb(45, 95, 160);
+}
+
+.actions-buttons a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-weight: bold;
+}
+
+.button-add {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.button-add a {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 15px;
+  background-color: rgb(79, 189, 94);
+  text-decoration: none;
+  color: #fff;
+}
+
+.button-add a:hover {
+  background-color: rgb(66, 139, 76);
+}
